@@ -40,6 +40,7 @@ class App extends Component {
       zIndex: 2
     }
 
+    // value changed
     texts[0].y = 1042
     texts[0].x = 525
     texts[2].y = 830
@@ -56,9 +57,9 @@ class App extends Component {
             fontSize: text.size,
             color: text.color,
             position: 'relative',
-            top: text.y, // change
-            left: text.x,// change
-            // textAlign: text.align === 'middle' ? 'center' : '',// change
+            top: text.y,
+            left: text.x,
+            // textAlign: text.align === 'middle' ? 'center' : '',
             width: '600px',
             fontFamily: text.font,
             zIndex: 3
